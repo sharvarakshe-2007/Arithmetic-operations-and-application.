@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+void main()
+{
+    float a, b, div,avg;
+
+    printf("Enter first number: ");
+    scanf("%f", &a);
+    printf("Enter second number: ");
+    scanf("%f", &b);
+    
+
+    div= a/b;
+    avg= (a+b)/2;
+    
+
+    printf("Division = %.2f\n", div);
+    printf("Average= %.2f\n", avg);
+}
